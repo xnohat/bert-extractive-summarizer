@@ -326,6 +326,7 @@ class TransformerSummarizer(ModelProcessor):
         'Bert': (BertModel, BertTokenizer),
         'OpenAIGPT': (OpenAIGPTModel, OpenAIGPTTokenizer),
         'GPT2': (GPT2Model, GPT2Tokenizer),
+        'GPTNeo': (GPTNeoForCausalLM, GPT2Tokenizer),
         'CTRL': (CTRLModel, CTRLTokenizer),
         'TransfoXL': (TransfoXLModel, TransfoXLTokenizer),
         'XLNet': (XLNetModel, XLNetTokenizer),
